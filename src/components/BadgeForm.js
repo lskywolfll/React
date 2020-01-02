@@ -43,6 +43,10 @@ class BadgeForm extends React.Component{
                 Capturando el evento del form para enviar su data hacia otro lugar, a la api respectivamente.
 
                 Validando a nuestro gusto si se enviara o no se enviara validando nosotros los datos de los demas propiedades
+
+                Se usa la propiedad dada desde la pagina con su evento controlador para que este lo tenga el pader que contiene todos los componentes de tal forma que todos puedan acceder desde el y se creen las propiedades respectivas para su uso en ellos
+
+                Tener en mente que puedes mandar por una propiedad dentro del componente en este caso el formulario para que este lo use para manejarlo desde otro componente y muchas otras cosas tambien por ende tener en mento estos usos que se le pueden dar a la hora de innovar usando funcionalidades externas a este que quiera usarlo
                 */}
                 <form onSubmit={this.handleSubmit}>
                     <div className="form-group">
